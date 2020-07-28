@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+このファイルは、JavaTM Architecture for XML Binding(JAXB) Reference Implementation、v2.3.2によって生成されました 
+<a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a>を参照してください 
+ソース・スキーマの再コンパイル時にこのファイルの変更は失われます。 
+生成日: 2020.07.28 時間 10:07:21 AM JST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://spring.io/guides/gs-producing-web-service">
+    <schemaBindings map="false">
+      <package name="io.spring.guides.gs_producing_web_service"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="io.spring.guides.gs_producing_web_service.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="io.spring.guides.gs_producing_web_service.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="io.spring.guides.gs_producing_web_service.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="io.spring.guides.gs_producing_web_service.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
